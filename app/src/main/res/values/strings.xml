@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="mission_name">Mission Name:</string>
+    <string name="rocket_name">Rocket Name:</string>
+    <string name="site_name">Site Name:</string>
+    <string name="launch_date">Launch Date:</string>
+    <string name="rocket_type">Rocket type:</string>
+    <string name="first_stage_core_serial">First Stage Core Serial:</string>
+    <string name="nationality">Nationality</string>
+    <string name="manufacturer">"Manufacturer: "</string>
+    <string name="video">Video:</string>
+    <string name="wiki">Wiki Link:</string>
+    <string name="article">"Article: "</string>
+    <string name="rocket_info">Rocket Info</string>
+    <string name="stage_info">Stage Info</string>
+    <string name="site_info">Site Info</string>
+    <string name="articles_and_video">Articles and Video</string>
+</resources>
