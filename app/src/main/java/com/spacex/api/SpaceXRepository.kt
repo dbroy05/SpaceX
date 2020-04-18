@@ -1,6 +1,7 @@
-package com.spacex.viewmodel
+package com.spacex.api
 
 import androidx.lifecycle.MutableLiveData
+import com.spacex.api.SpaceXApiClient
 import com.spacex.model.Launch
 import retrofit2.Call
 import retrofit2.Callback

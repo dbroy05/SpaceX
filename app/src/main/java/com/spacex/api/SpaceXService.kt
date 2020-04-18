@@ -1,4 +1,4 @@
-package com.spacex.viewmodel
+package com.spacex.api
 
 import com.spacex.model.Launch
 import retrofit2.Call
