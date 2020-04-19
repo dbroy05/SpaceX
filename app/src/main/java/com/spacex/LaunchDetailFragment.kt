@@ -32,6 +32,7 @@ class LaunchDetailFragment : Fragment() {
             details.text = it?.details
             rocket_type.text = it?.rocket?.rocketType
             first_stage_core_serial.text = it?.rocket?.firstStage?.cores?.get(0)?.coreSerial
+            payloadMassLb.text = it?.rocket?.secondStage?.payloads?.get(0)?.payloadMassLb
             nationality.text = it?.rocket?.secondStage?.payloads?.get(0)?.nationality
             manufacturer.text = it?.rocket?.secondStage?.payloads?.get(0)?.manufacturer
             site_name.text = it?.launchSite?.siteName

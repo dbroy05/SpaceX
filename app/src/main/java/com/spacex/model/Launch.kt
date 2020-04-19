@@ -43,6 +43,9 @@ class Launch {
 
         @SerializedName("manufacturer")
         var manufacturer: String? = null
+
+        @SerializedName("payload_mass_lbs")
+        var payloadMassLb: String? = null
     }
 
     class FirstStage {
@@ -53,6 +56,8 @@ class Launch {
     class Cores {
         @SerializedName("core_serial")
         var coreSerial: String? = null
+        @SerializedName("landing_vehicle")
+        var landingVehicle: String? = null
     }
 
     @SerializedName("launch_site")
