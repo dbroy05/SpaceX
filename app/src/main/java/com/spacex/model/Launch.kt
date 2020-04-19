@@ -8,6 +8,9 @@ class Launch {
     @SerializedName("flight_number")
     var flightNumber: String? = null
 
+    @SerializedName("details")
+    var details: String? = null
+
     @SerializedName("mission_name")
     var missionName: String? = null
 

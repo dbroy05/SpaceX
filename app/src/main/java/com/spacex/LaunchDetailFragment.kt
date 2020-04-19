@@ -29,6 +29,7 @@ class LaunchDetailFragment : Fragment() {
         ContentUtil.selectedItem.let {
             Glide.with(this).load(it?.links?.missionPatch).into(launch_image);
             rocket_name.text = it?.rocket?.rocketName
+            details.text = it?.details
             rocket_type.text = it?.rocket?.rocketType
             first_stage_core_serial.text = it?.rocket?.firstStage?.cores?.get(0)?.coreSerial
             nationality.text = it?.rocket?.secondStage?.payloads?.get(0)?.nationality

@@ -16,4 +16,5 @@
     <string name="stage_info">Stage Info</string>
     <string name="site_info">Site Info</string>
     <string name="articles_and_video">Articles and Video</string>
+    <string name="details">Details:</string>
 </resources>
